@@ -1,0 +1,111 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    background-color: rgb(238, 217, 32);
+}
+
+#intro {
+    background-color: rgba(238, 217, 32, 0.668);
+}
+
+.main-section-content {
+    background-color: rgba(238, 217, 32, 0.477);
+}
+
+#bestsellers,
+footer {
+    background-color: rgb(205, 161, 16);
+}
+
+header,
+nav,
+footer,
+#intro,
+#main-section-content,
+#bestsellers,
+#teachers,
+#book-reviews {
+    border: 3px solid rgb(255, 153, 0);
+    border-radius: 6px;
+    text-align: center;
+    margin: 40px;
+    box-shadow: 0 0 10px rgb(255, 0, 0);
+}
+
+a {
+    color: brown;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 0, 0);
+}
+
+h1,
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table {
+    border: 3px solid rgb(0, 0, 0);
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+ul>li {
+    list-style-type: none;
+}
+
+footer {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+button {
+    margin: 15px 0;
+    border-color: black;
+    border-radius: 4px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+button:hover {
+    background-color: rgb(211, 142, 23);
+}
+
+#bestsellers {
+    text-align: left;
+}
+
+header img {
+    width: 250px 0;
+}
+
+#intro {
+    padding: 0 40px 30px 40px;
+}
+
+.main-section-content,
+#bestsellers,
+header {
+    padding: 30px;
+}
+
+video {
+    width: 250px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+iframe {
+    width: 250px;
+    height: 150px;
+}
+
+h1 {
+    text-shadow: 1px 2px 3px;
+}
